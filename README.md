@@ -1,7 +1,9 @@
 # Floating Action Button for Xamarin.Forms
 
  - - - -
+**This project was forked in order to resolve an issue I was having with Android. Credit for this project goes to the original developer**
 
+#**************Original Readme notes:**************
 ## I'm not actively supporting this library right now. 
 
 It needs a fair amount for work for updating and I haven't had the time to do so as of late.
