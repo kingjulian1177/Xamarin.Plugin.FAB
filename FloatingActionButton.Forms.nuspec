@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata minClientVersion="2.8.1">
-    <id>FAB.Forms</id>
-    <version>2.2.0-pre1</version>
+    <id>FAButton.Forms</id>
+    <version>1.0.1</version>
     <title>Floating Action Button For Xamarin.Forms</title>
-    <authors>Drew Frisk</authors>
-    <owners>Drew Frisk</owners>
-    <licenseUrl>https://raw.githubusercontent.com/keannan5390/Xamarin.Plugin.FAB/master/LICENSE.txt</licenseUrl>
-    <projectUrl>https://github.com/keannan5390/Xamarin.Plugin.FAB</projectUrl>
-    <iconUrl>https://github.com/keannan5390/Xamarin.Plugin.FAB/blob/master/Library/assets/icon.png</iconUrl>
+    <authors>Julian Radacz</authors>
+    <owners>Julian Radacz</owners>
+    <licenseUrl>https://raw.githubusercontent.com/kingjulian1177/Xamarin.Plugin.FAB/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/kingjulian1177/Xamarin.Plugin.FAB</projectUrl>
+    <iconUrl>https://github.com/kingjulian1177/Xamarin.Plugin.FAB/blob/master/Library/assets/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
-    Custom control for your Xamarin.Forms project to render a floating action button in projects that target Android or iOS
+      Custom control for your Xamarin.Forms project to render a floating action button in projects that target Android or iOS. Content was forked from another developer. All credit for the project goes to Drew Frisk. Link to original project https://github.com/keannan5390/Xamarin.Plugin.FAB
     </description>
     <summary>Creates a Floating Action Button for Xamarin.Forms</summary>
     <tags>xamarin, pcl, xam.pcl, floating action button, fab, android, xamarin.forms, ios</tags>
 	<releaseNotes>
-		[2.2.0]
-		- Some bug fixes
-		- Other enhancements (see change log in github for details)
-        [2.1.2]
-		- Fixed crash on iOS when FAB image source didn't exist
-		- Compatibility issue fixes for older versions of Android 
-		[2.1.1]
-		- Added support for profile 111
-		[2.1.0]
-		- Use FloatingActionButton from support design library
-		- PressedColor property is now deprecated, use RippleColor instead
-		[2.0.0]
-		- Fixed issues with iOS assembly references
-		- Fixed issues with click event
-		- Fixed issues with image display in iOS
-		- Added proper support for color specifications
+	[1.0.1]
+	-fixed missing libraries	
+	[1.0]
+      - Removed SetRippleColor method call in android to resolve missing method exception from forked project.
      </releaseNotes>
   </metadata>
    <files>

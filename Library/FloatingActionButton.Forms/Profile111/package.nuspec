@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>FAButton.Forms</id>
+    <!--*-->
+    <version>1.0.0</version>
+    <title>FAB.Forms</title>
+    <!--*-->
+    <authors>Julian Radacz</authors>
+    <owners>Julian Radacz</owners>
+    <!--
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl></iconUrl>
+-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>Custom control for your Xamarin.Forms project to render a floating action button in projects that target Android or iOS. This project is a continuation of the original owner's work. The purpose of this release is to correct an issue i am having with a project of mine. I hope this plugin serves useful to anyone else that was using this project and had issues on the android side of the xamarin.forms implementation. Here is a link to the original project: https://github.com/keannan5390/Xamarin.Plugin.FAB</description>
+    <!--*-->
+    <releaseNotes>[1.0]
+ -project forked from another developer, removed method call SetRippleColor in Android due to missing method exceptions.</releaseNotes>
+    <copyright>jradacz</copyright>
+    <tags>xamarin, pcl, xam.pcl, floating action button, fab, android, xamarin.forms, ios</tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+  </metadata>
+</package>
